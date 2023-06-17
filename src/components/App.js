@@ -1,22 +1,24 @@
+import { useState } from "react";
 import "../styles/app.css";
-import Post from "./Post";
+import initialData from "../data/sampleData.json";
+import Record from "./Record";
 
 const App = () => {
+  const [records, setRecords] = useState(initialData);
   return (
     <div className="app">
       <div className="app__background-wrap" />
       <div className="app__foreground-wrap">
-        <div className="app__title">Intro to React II</div>
-        {
-          // TODO: Send data to Post component and verify it works
-          //   wrap all Posts in a PostList component
-          // TODO: Create a Postlist component to wrap all Posts in,
-          //   display name of last upvoted post at the top
-        }
-        <Post />
+        <div className="app__title">Events and forms in React</div>
+        <div className="app__form-wrapper">Form goes here!</div>
+        <div className="app__records-wrapper">
+          {records.map((record) => {
+            return <Record record={record} />;
+          })}
+        </div>
       </div>
     </div>
   );
-}
+};
 
 export default App;

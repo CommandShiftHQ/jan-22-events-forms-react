@@ -1,7 +1,7 @@
 .app {
   position: relative;
   box-sizing: border-box;
-  padding: 2em 4em;
+  padding: 2em 8em;
   min-height: 100%;
 }
 
@@ -17,14 +17,23 @@
   opacity: 0.5;
 }
 
+.app__form-wrapper {
+  margin-bottom: 2em;
+}
+
 .app__foreground-wrap {
-  background-color: rgb(20,20,20, 0.9);
+  background-color: rgb(20, 20, 20, 0.9);
+  padding: 2em;
 }
 
 .app__title {
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: bold;
+  text-decoration: underline;
   color: white;
   text-align: center;
-  padding-bottom: 1rem;
+  margin-bottom: 1.5em;
+}
+
+.app__records-wrapper {
 }

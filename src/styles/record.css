@@ -1,0 +1,28 @@
+.record__wrapper {
+  margin-bottom: 2em;
+  padding: 2em;
+  border: 2px solid white;
+  border-radius: 1em;
+}
+
+.record__title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.record__description {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+.record__genre {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
+
+.record__on-tour {
+  font-size: 1.5rem;
+  font-style: italic;
+}

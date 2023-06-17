@@ -1,0 +1,23 @@
+[
+  {
+    "bandName": "Queens of the stone age",
+    "albumName": "In times new roman",
+    "genre": "Stoner rock",
+    "description": "Eighth studio album by American rock band Queens of the Stone Age, released on June 16, 2023",
+    "onTour": true
+  },
+  {
+    "bandName": "Arctic Monkeys",
+    "albumName": "The car",
+    "genre": "Indie rock",
+    "description": "Seventh studio album by English rock band Arctic Monkeys, released on 21 October 2022",
+    "onTour": false
+  },
+  {
+    "bandName": "Manic Street Preachers",
+    "albumName": "The ultra vivid lament",
+    "genre": "Alternative rock",
+    "description": "Fourteenth studio album by Welsh alternative rock band Manic Street Preachers, released on 10 September 2021",
+    "onTour": true
+  }
+]
