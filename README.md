@@ -10,7 +10,7 @@ The `main` branch contains the basic application, this can be forked and used as
 
 ## Finished app
 
-![Screenshot](./public/screenshot-react-intro-2.png)
+![Screenshot](./public/Completed.png)
 
 ## Available Scripts
 
